@@ -1,0 +1,42 @@
+.inicio {
+  background-image: url(https://res.cloudinary.com/dp8auiwtw/image/upload/v1696872531/Portafolio/11119_wskana.jpg);
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inicio .inicio-cuerpo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-lavander-ii);
+  background: rgba(172, 145, 185, 0.9);
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 1.5rem;
+  gap: 0.7rem;
+}
+.inicio .inicio-cuerpo h2 {
+  color: var(--main-light-pink);
+  font-family: "Courgette", cursive;
+  font-size: 2rem;
+}
+.inicio .inicio-cuerpo h1,
+.inicio .inicio-cuerpo h3 {
+  color: white;
+}
+.inicio .inicio-cuerpo .botones {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.inicio .inicio-cuerpo .botones .boton-conocer {
+  background-color: rgba(255, 200, 221, 0.3);
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 1rem;
+}/*# sourceMappingURL=Inicio.css.map */

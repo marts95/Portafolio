@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--main-violet);
+  padding-block: 2rem;
+  color: white;
+  .redes {
+    display: flex;
+    gap: 3rem;
+    font-size: 20px;
+    a {
+      color: white;
+    }
+  }
+}

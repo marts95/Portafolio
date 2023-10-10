@@ -1,0 +1,28 @@
+.sobre {
+  background-image: url(https://res.cloudinary.com/dp8auiwtw/image/upload/v1696872531/Portafolio/11119_wskana.jpg);
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sobre .sobre-cuerpo {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(172, 145, 185, 0.9);
+  padding: 2rem;
+  padding-right: 4.3rem;
+  border-radius: 15px;
+  gap: 2rem;
+  width: 65vw;
+  text-align: justify;
+}
+.sobre .sobre-cuerpo h1 {
+  padding-bottom: 1rem;
+  color: var(--main-light-pink);
+  text-decoration: underline;
+}
+.sobre .sobre-cuerpo p {
+  color: white;
+  font-size: 1.04rem;
+}/*# sourceMappingURL=Sobre.css.map */

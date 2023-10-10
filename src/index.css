@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Caveat&family=Courgette&family=Gabarito&family=Great+Vibes&family=Petit+Formal+Script&display=swap');
+/*font-family: 'Bad Script', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Gabarito', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Petit Formal Script', cursive;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gabarito", cursive;
+  cursor: pointer;
+}
+
+:root {
+  --main-light-pink: #ffc8dd;
+  --main-pink: #ffafcc;
+  --main-dark-pink: #d391a8;
+  --main-lilac: #bda0cc;
+  --main-violet: #ac91b9;
+  --main-grey: #dfdde0;
+  --main-lavander: #ccd4f1;
+  --main-lavander-ii: #dac8e4;
+  --main-sky-blue: #a2d2ff;
+  --main-light-blue: #bde0fe;
+}

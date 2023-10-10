@@ -47,4 +47,9 @@
   text-decoration-color: var(--main-pink);
   transform: scale(1.3);
   transition-duration: 0.7s;
+}
+.navbar .navbar-menu .li:active {
+  color: var(--main-pink);
+  text-decoration: underline;
+  transform: scale(1.3);
 }/*# sourceMappingURL=Navbar.css.map */

@@ -13,7 +13,7 @@ export const Navbar = () => {
           ></img>
         </Link>
         <Link to="/" className="h1">
-          <h1>Desarrolladora Front-end React</h1>
+          <h1>Desarrolladora Frontend React</h1>
         </Link>
       </div>
       <div className="navbar-menu">

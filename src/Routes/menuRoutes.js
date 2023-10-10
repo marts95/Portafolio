@@ -1,7 +1,7 @@
 import { Inicio } from "../components/page/inicio/Inicio.jsx";
-import { Proyectos } from "../components/page/proyectos/Proyectos.jsx";
+import { ProyectosContainer } from "../components/page/proyectos/ProyectosContainer.jsx";
 import { Sobre } from "../components/page/sobre-mi/Sobre.jsx";
-import { Certificados } from "../components/page/certificados/Certificados.jsx";
+import { CertificadosContainer } from "../components/page/certificados/CertificadosContainer.jsx";
 import { Contacto } from "../components/page/contacto/Contacto.jsx";
 
 
@@ -20,12 +20,12 @@ export const menuRoutes = [
     {
         id: "proyectos",
         path: "/proyectos",
-        Element: Proyectos,
+        Element: ProyectosContainer,
     },
     {
         id: "certificados",
         path: "/certificados",
-        Element: Certificados,
+        Element: CertificadosContainer,
     },
     {
         id: "contacto",

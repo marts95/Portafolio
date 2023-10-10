@@ -1,1 +1,10 @@
-/*# sourceMappingURL=Certificados.css.map */
+.tarjeta-certificado {
+  background-color: var(--main-grey);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  padding-block: 3rem;
+}/*# sourceMappingURL=Certificados.css.map */

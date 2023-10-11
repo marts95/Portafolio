@@ -2,7 +2,7 @@ import { Inicio } from "../components/page/inicio/Inicio.jsx";
 import { ProyectosContainer } from "../components/page/proyectos/ProyectosContainer.jsx";
 import { Sobre } from "../components/page/sobre-mi/Sobre.jsx";
 import { CertificadosContainer } from "../components/page/certificados/CertificadosContainer.jsx";
-import { Contacto } from "../components/page/contacto/Contacto.jsx";
+import { ContactoContainer } from "../components/page/contacto/ContactoContainer.jsx";
 
 
 
@@ -30,7 +30,7 @@ export const menuRoutes = [
     {
         id: "contacto",
         path: "/contacto",
-        Element: Contacto,
+        Element: ContactoContainer,
     },
     
 ];

@@ -7,6 +7,7 @@
   padding-block: 0.25rem;
   background-color: var(--main-violet);
   width: 100vw;
+  cursor: auto;
 }
 .navbar .navbar-logo {
   display: flex;

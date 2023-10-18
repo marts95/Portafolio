@@ -10,7 +10,7 @@ export const Inicio = () => {
         <h3>Mi nombre es</h3>
         <h2>Marianella Torressi</h2>
         <h3> y soy </h3>
-        <h2>Desarrolladora Front-end React</h2>
+        <h2>Desarrolladora <br className="false"></br> Front-end React</h2>
         <div className="botones">
           <Link to="/sobre">
             <Button className="boton-conocer" variant="contained">

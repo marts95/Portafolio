@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(172, 145, 185, 0.9);
+  background: rgba(172, 145, 185, 0.9);
   height: -moz-fit-content;
   height: fit-content;
   width: -moz-fit-content;
@@ -23,6 +23,9 @@
   color: var(--main-light-pink);
   font-family: "Courgette", cursive;
   font-size: 2rem;
+}
+.inicio .inicio-cuerpo h2 .false {
+  display: none;
 }
 .inicio .inicio-cuerpo h1,
 .inicio .inicio-cuerpo h3 {
@@ -38,4 +41,39 @@
   text-decoration: none;
   font-weight: 600;
   margin-top: 1rem;
+}
+
+@media (max-width: 650px) or (max-height: 490px) {
+  .inicio .inicio-cuerpo {
+    max-width: 80vw;
+    max-height: 70vh;
+    padding-block: 0.7rem;
+    gap: 0.5rem;
+  }
+  .inicio .inicio-cuerpo h1 {
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .inicio .inicio-cuerpo h2 {
+    font-size: 1.6rem;
+    flex-wrap: wrap;
+  }
+  .inicio .inicio-cuerpo h3 {
+    font-size: 1rem;
+  }
+  .inicio .inicio-cuerpo .botones {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 535px) {
+  .inicio .inicio-cuerpo h2 .false {
+    display: initial;
+    text-align: center;
+  }
+}
+@media (max-height: 490px) {
+  .botones {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=Inicio.css.map */

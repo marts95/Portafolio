@@ -9,7 +9,8 @@ export const Footer = () => {
       <div className="footer-copy">
         <h3>
           <FaRegCopyright />
-          2023 Diseñado y desarrollado por Marianella Torressi
+          2023 Diseñado y desarrollado <br className="false"></br>por Marianella
+          Torressi
         </h3>
       </div>
       <div className="redes">

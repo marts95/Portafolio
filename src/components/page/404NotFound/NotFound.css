@@ -32,4 +32,24 @@
 
 .nena-no-se {
   height: 40vh;
+}
+
+@media (max-width: 1100px) {
+  .encontrar {
+    gap: 2rem;
+    padding: 1.5rem;
+    height: 100%;
+    min-height: 100vh;
+  }
+  .encontrar p {
+    font-size: 30px;
+  }
+  .encontrar h1 {
+    font-size: 30px;
+  }
+  .nena-no-se {
+    max-width: 95vw;
+    height: auto;
+    max-height: 50vh;
+  }
 }/*# sourceMappingURL=NotFound.css.map */

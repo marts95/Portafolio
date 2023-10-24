@@ -20,12 +20,11 @@
   color: white;
 }
 
-@media (max-width: 750px) or (min-height: 925px) {
+@media (max-width: 750px) {
   .footer {
     gap: 2rem;
     padding-inline: 1rem;
     padding-block: 1rem;
-    min-height: 6rem;
   }
   .footer .footer-copy {
     text-align: center;
@@ -38,5 +37,10 @@
   }
   .footer .redes {
     gap: 1rem;
+  }
+}
+@media (min-height: 925px) {
+  .footer {
+    padding-block: 3rem;
   }
 }/*# sourceMappingURL=Footer.css.map */

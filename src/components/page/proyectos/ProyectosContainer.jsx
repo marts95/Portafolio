@@ -30,7 +30,7 @@ export const ProyectosContainer = () => {
         <ProyectosPresentacional proyecto={proyecto} />
       ) : (
         <div className="loader">
-          <CircleLoader className="loader-logo" size="17rem" color="var(--main-violet)" />
+          <CircleLoader className="loader-logo" size="15rem" color="var(--main-violet)" />
         </div>
       )}
     </div>

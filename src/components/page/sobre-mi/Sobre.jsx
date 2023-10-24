@@ -7,10 +7,9 @@ export const Sobre = () => {
         <img
           src="https://res.cloudinary.com/dp8auiwtw/image/upload/v1696634433/Portafolio/foto-sin-fondo_rvwm9i.png"
           alt="foto-cv"
-          style={{ height: "25rem" }}
           className="sobre-img"
         ></img>
-        <div>
+        <div className="sobre-texto">
           <h1>Sobre mí</h1>
           <p>
             Mi nombre es Marianella Torressi, soy de Santiago del Estero,

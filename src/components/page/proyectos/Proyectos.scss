@@ -14,3 +14,20 @@
   gap: 4rem;
   padding-block: 3rem;
 }
+@media (max-width: 800px) {
+  .loader{
+    padding-inline: 2rem;
+    padding-block: 15rem;
+  }
+}
+@media (max-height: 500px){
+  .loader{
+    padding-inline: 0.5rem;
+    padding-block: 2rem;
+  }
+}
+@media (min-height: 800px) and (max-width: 1100px){
+  .loader{
+    padding-block: 20rem;
+  }
+}
